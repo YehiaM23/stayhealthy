@@ -1,0 +1,46 @@
+.reviews {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.reviews h1 {
+    font-size: 32px;
+}
+
+.reviews table {
+    width: 100%;
+    table-layout: auto;
+}
+
+.reviews table th,
+.reviews table td {
+    padding: 16px;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+.reviews table th {
+    text-align: left;
+    background: #f3f3f3;
+}
+
+.reviews table td {
+    background: #fff;
+}
+
+.reviews table button {
+    height: 40px;
+    padding: 0 28px;
+}
+
+.reviews table button:disabled {
+    background: #c3c3c3 !important;
+}
+
+.reviews table .star {
+    margin: 5px;
+}
+
+.reviews table .star.active {
+    color: yellow;
+}

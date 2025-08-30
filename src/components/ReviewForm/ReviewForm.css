@@ -1,0 +1,55 @@
+.review-form-popup-content {
+    width: 440px !important;
+    border-radius: 10px;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-form-head {
+    padding: 10px 20px;
+}
+
+.review-form-body,
+.review-form-footer {
+    padding: 24px;
+}
+
+.review-form-body {
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.review-form-body .rating-label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.review-form-body .star {
+    margin: 0 5px;
+    color: #c3c3c3;
+    cursor: pointer;
+}
+
+.review-form-body .star.active {
+    color: rgb(242, 194, 2);
+}
+
+.review-form-footer {
+    width: 100%;
+    padding-top: 0;
+    text-align: center;
+}
+
+.review-form-footer > button {
+    width: 100%;
+    padding: 0 28px;
+    height: 40px;
+}
+
+

@@ -1,0 +1,27 @@
+.profile-container {
+    max-width: 1024px;
+    margin: 50px auto 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+.profile-details h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.profile-details ul {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.profile-details ul > li {
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+.profile-details ul > li > span {
+    font-weight: 600;
+}
